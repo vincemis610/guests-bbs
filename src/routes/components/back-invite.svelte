@@ -13,11 +13,20 @@
     transform-[rotateY(180deg)] backface-hidden border-3 border-blue-300 "
 >
   <div class="text-[#4682B4] font-medium">
-    <div class="mt-25 font-semibold italic">{dataGest?.msg || 'HOLA'}</div>
-    <div class="text-center w-auto px-3 pb-2 text-sm pt-2">
-      Una bendición pronto llegará a iluminar nuestras vidas y a llenarnos de amor y alegría.
-      Esperamos compartir con cada uno de ustedes la próxima llegada de nuestro bebé.
-    </div>
+    <div class="mt-14 font-semibold italic">{dataGest?.msg || 'HOLA FAMILIA'}</div>
+    {#if dataGest?.msg }
+      <div class="text-center w-auto pb-2 text-sm pt-2">
+        Cada día escucho sus voces, siento su amor y me imagino todo lo divertido que será abrazarlos, 
+        jugar y recibir todo ese afecto de amor que ya me están preparando. Estoy contando los días, pero mientras tanto, 
+        quiero agradecerles por estar aquí, celebrando mi llegada.
+      </div>
+    {:else}
+      <div class="text-center w-auto px-3 pb-2 text-sm pt-2">
+        Una bendición pronto llegará a iluminar nuestras vidas y a llenarnos de amor y alegría.
+        Esperamos compartir con cada uno de ustedes la próxima llegada de nuestro bebé.
+      </div>
+    {/if}
+    
     <div class="flex justify-center w-full my-1">
       <div class="flex justify-center items-center font-SEMIBOLD bg-[#4682B4] text-white w-38 my-1 p-1 text-sm">
         <Baby strokeWidth={1} class="w-5 h-5 mr-2"/>EINAR DARIEL
@@ -46,7 +55,7 @@
       </div>
     </div>
   </div>
-  <div class="w-full flex justify-end">
+  <div class="hidden w-full justify-end">
     <img src={BabyRabbit} alt="Baby" width="60"/>
   </div>
   
