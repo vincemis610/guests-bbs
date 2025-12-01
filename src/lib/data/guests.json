@@ -1,40 +1,40 @@
 [
   {
     "to": "Mis Abuelitos",
-    "msg": "Hola queridos Abuelitos",
+    "msg": "queridos Abuelitos",
     "id": "abuelos"
   },
   {
     "to": "Rocio",
-    "msg": "Hola tia Chio",
+    "msg": "querida tía Chio",
     "id": "rocio",
     "buttons": true
   },
   {
     "to": "Diego y Lorena",
-    "msg": "Hola tios",
+    "msg": "Queridos tío y tía",
     "id": "dyl"
   },
   {
     "to": "Alex",
-    "msg": "Hola tio Alex",
+    "msg": "querido tío Alex",
     "id": "alex",
     "buttons": true
   },
   {
-    "to": "Lola",
-    "msg": "Hola tia Lola",
-    "id": "lola"
+    "to": "Lina y Roger",
+    "msg": "Queridos tío y tía",
+    "id": "ryl"
   },
   {
-    "to": "Teydi",
-    "msg": "Hola tia Teydi",
-    "id": "teydi"
+    "to": "Teydi y Franklin",
+    "msg": "Queridos tío y tía",
+    "id": "tyf"
   },
   {
-    "to": "Reyna",
-    "msg": "Hola prima Reyna",
-    "id": "reyna"
+    "to": "Reyna y Russel",
+    "msg": "Hola primos",
+    "id": "ryr"
   },
   {
     "to": "Roberto y Fabiola",
@@ -43,30 +43,30 @@
     "buttons": true
   },
   {
-    "to": "Jhony y Geny",
-    "msg": "Hola Jhony y Geny",
+    "to": "Geny y Jhony",
+    "msg": "Hola Geny y Jhony",
     "id": "jyg"
   },
   {
     "to": "Shanon",
-    "msg": "Hola tia Shanon",
+    "msg": "Querida tía Shanon",
     "id": "shanon",
     "buttons": true
   },
   {
     "to": "Dennis",
-    "msg": "Hola prima Dennis",
+    "msg": "Querida prima Dennis",
     "id": "dennis",
     "buttons": true
   },
   {
-    "to": "Leti",
-    "msg": "Hola tia Leti",
+    "to": "Leti y Freddy",
+    "msg": "Queridos tío y tía",
     "id": "leti"
   },
   {
-    "to": "Magaly",
-    "msg": "Hola tia Magaly",
+    "to": "Magaly y Antonio",
+    "msg": "Queridos tío y tía",
     "id": "magaly"
   },
   {
@@ -82,36 +82,36 @@
     "buttons": true
   },
   {
-    "to": "Abi",
-    "msg": "Hola prima",
+    "to": "Abigail y Miguel",
+    "msg": "Hola primos",
     "id": "abi"
   },
   {
     "to": "Julia",
-    "msg": "Hola prima Juli",
+    "msg": "querida prima Juli",
     "id": "julia",
     "buttons": true
   },
   {
-    "to": "Dulce",
-    "msg": "Hola tia Dulce",
+    "to": "Dulce y José",
+    "msg": "Queridos tío y tía",
     "id": "dulce"
   },
   {
     "to": "Lourdes",
-    "msg": "Hola tia Lulu",
+    "msg": "querida tia Lulu",
     "id": "lulu",
     "buttons": true
   },
   {
     "to": "Keila",
-    "msg": "Hola prima Keila",
+    "msg": "querida prima Keila",
     "id": "keila",
     "buttons": true
   },
   {
     "to": "Isa y Abisai",
-    "msg": "Hola primos",
+    "msg": "queridos primos",
     "id": "isa",
     "buttons": true
   },
@@ -128,12 +128,14 @@
   {
     "to": "Iveth",
     "msg": "Hola Iveth",
-    "id": "iveth"
+    "id": "iveth",
+    "buttons": true
   },
   {
     "to": "Maria",
     "msg": "Hola Maria",
-    "id": "maria"
+    "id": "maria",
+    "buttons":true
   },
   {
     "to": "Emily",

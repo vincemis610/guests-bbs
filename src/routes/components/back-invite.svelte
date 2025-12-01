@@ -13,8 +13,8 @@
     transform-[rotateY(180deg)] backface-hidden border-3 border-blue-300 "
 >
   <div class="text-[#4682B4] font-medium">
-    <div class="mt-14 font-semibold italic">{dataGest?.msg.toUpperCase() || 'HOLA FAMILIA'}</div>
-    {#if dataGest && dataGest?.id === 'ryf' || dataGest?.id === 'jyg' || dataGest?.id === 'maria' || dataGest?.id === 'iveth' || dataGest?.id === 'vivi'}
+    <div class="mt-14 font-semibold">{dataGest?.msg.toUpperCase() || 'HOLA FAMILIA'}</div>
+    {#if dataGest && dataGest?.id === 'ryf' || dataGest?.id === 'jyg' || dataGest?.id === 'maria' || dataGest?.id === 'iveth' || dataGest?.id === 'vivi' || dataGest?.id === 'emily' || dataGest?.id === 'chio'}
       <div class="text-center w-auto pb-2 text-sm pt-2">
         Una bendición pronto llegará a iluminar nuestras vidas y a llenarnos de amor y alegría.
         Esperamos compartir con cada uno de ustedes la próxima llegada de nuestro bebé.
@@ -50,7 +50,7 @@
           <p>Lugar: <br>Teabo, Yucatan<br>Mi casa</p>
         </div>
         <div class="w-1/2 text-start">
-          <p>Direccion: <br>Calle 34 X 35 Y 37 <br> # 213</p>
+          <p>Dirección: <br>Calle 34 X 35 Y 37 <br> # 213</p>
         </div>
       </div>
     </div>
