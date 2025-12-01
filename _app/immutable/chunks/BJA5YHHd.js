@@ -1,1 +1,0 @@
-import{U as r}from"./CQPDe-Ep.js";import{s as t,p as e}from"./Co6xKmzz.js";r();const a={get error(){return e.error},get status(){return e.status},get url(){return e.url}};t.updated.check;const p=a;export{p};
