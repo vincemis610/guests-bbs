@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="flex items-center justify-center text-sm">
-      <div class="flex items-center pr-5 py-1 border-y border-y-[#4682B4]">
+      <div class="flex font-semibold items-center pr-5 py-1 border-y border-y-[#4682B4]">
         <Calendar strokeWidth={1} class="w-4 h-4 mr-1"/> 29 DIC
       </div>
       <div>
