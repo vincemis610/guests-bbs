@@ -13,14 +13,14 @@
     transform-[rotateY(180deg)] backface-hidden border-3 border-blue-300 "
 >
   <div class="text-[#4682B4] font-medium">
-    <div class="mt-14 font-semibold italic">{dataGest?.msg || 'HOLA FAMILIA'}</div>
+    <div class="mt-14 font-semibold italic">{dataGest?.msg.toUpperCase() || 'HOLA FAMILIA'}</div>
     {#if dataGest && dataGest?.id === 'ryf' || dataGest?.id === 'jyg' || dataGest?.id === 'maria' || dataGest?.id === 'iveth' || dataGest?.id === 'vivi'}
       <div class="text-center w-auto pb-2 text-sm pt-2">
         Una bendición pronto llegará a iluminar nuestras vidas y a llenarnos de amor y alegría.
         Esperamos compartir con cada uno de ustedes la próxima llegada de nuestro bebé.
       </div>
     {:else}
-      <div class="text-center w-auto px-3 pb-2 text-sm pt-2">
+      <div class="text-center w-auto pb-2 text-sm pt-2">
         Cada día escucho sus voces, siento su amor y me imagino todo lo divertido que será abrazarlos, 
         jugar y recibir todo ese afecto de amor que ya me están preparando. Estoy contando los días, pero mientras tanto, 
         quiero agradecerles por estar aquí, celebrando mi llegada.

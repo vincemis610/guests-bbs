@@ -1,33 +1,33 @@
 [
   {
     "to": "Mis Abuelitos",
-    "msg": "Hola queridos abuelitos",
+    "msg": "Hola queridos Abuelitos",
     "id": "abuelos"
   },
   {
-    "to": "Tia Rocio",
+    "to": "Rocio",
     "msg": "Hola tia Chio",
     "id": "rocio",
     "buttons": true
   },
   {
-    "to": "Tio Diego y Lorena",
-    "msg": "Hola tio y tia",
+    "to": "Diego y Lorena",
+    "msg": "Hola tios",
     "id": "dyl"
   },
   {
-    "to": "Tio Alex",
+    "to": "Alex",
     "msg": "Hola tio Alex",
     "id": "alex",
     "buttons": true
   },
   {
-    "to": "Tia Lola",
+    "to": "Lola",
     "msg": "Hola tia Lola",
     "id": "lola"
   },
   {
-    "to": "Tia Teydi",
+    "to": "Teydi",
     "msg": "Hola tia Teydi",
     "id": "teydi"
   },
@@ -48,24 +48,24 @@
     "id": "jyg"
   },
   {
-    "to": "Tia Shanon",
+    "to": "Shanon",
     "msg": "Hola tia Shanon",
     "id": "shanon",
     "buttons": true
   },
   {
-    "to": "Prima Dennis",
+    "to": "Dennis",
     "msg": "Hola prima Dennis",
     "id": "dennis",
     "buttons": true
   },
   {
-    "to": "Tia Leti",
+    "to": "Leti",
     "msg": "Hola tia Leti",
     "id": "leti"
   },
   {
-    "to": "Tia Magaly",
+    "to": "Magaly",
     "msg": "Hola tia Magaly",
     "id": "magaly"
   },
@@ -76,47 +76,47 @@
     "buttons": true
   },
   {
-    "to": "Prima Karen",
+    "to": "Karen",
     "msg": "Hola prima",
     "id": "karen",
     "buttons": true
   },
   {
-    "to": "Prima Abi",
+    "to": "Abi",
     "msg": "Hola prima",
     "id": "abi"
   },
   {
-    "to": "Prima Julia",
+    "to": "Julia",
     "msg": "Hola prima Juli",
     "id": "julia",
     "buttons": true
   },
   {
-    "to": "Tia Dulce",
+    "to": "Dulce",
     "msg": "Hola tia Dulce",
     "id": "dulce"
   },
   {
-    "to": "Tia Lourdes",
+    "to": "Lourdes",
     "msg": "Hola tia Lulu",
     "id": "lulu",
     "buttons": true
   },
   {
-    "to": "Prima Keila",
+    "to": "Keila",
     "msg": "Hola prima Keila",
     "id": "keila",
     "buttons": true
   },
   {
-    "to": "Prima Isa y Abisai",
+    "to": "Isa y Abisai",
     "msg": "Hola primos",
     "id": "isa",
     "buttons": true
   },
   {
-    "to": "Prima Rocio",
+    "to": "Rocio",
     "msg": "Hola prima Chio",
     "id": "chio"
   },
