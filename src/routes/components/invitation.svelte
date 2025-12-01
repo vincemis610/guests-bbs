@@ -7,6 +7,7 @@
     to: string;
     msg: string;
     id: string;
+    buttons?: boolean
   }
 
   let dataGest: TypeGuest | null = $state(null);
@@ -20,6 +21,7 @@
   
   onMount(() => {
     dataGest = guests.find((d) => d.id.toLocaleLowerCase() === idGuest?.toLowerCase()) || null;
+    console.log(dataGest)
   })
 
   let flipped = $state(false);
@@ -41,7 +43,9 @@
       
     </div>
   </button>
-  <div class="text-sm flex justify-center text-white p-2 mt-10 rounded-full ">
+  <div 
+    class={`${dataGest?.buttons ? '' : 'hidden'} text-sm flex justify-center text-white p-2 mt-10 rounded-full`}
+  >
     <div class="flex items-center">
       <div class="text-white px-2">Ubicación:</div>
       <button 
@@ -51,7 +55,9 @@
         <MapPin class="w-4 h-4 mx-2 text-gray-600" strokeWidth={1}/>
       </button>
     </div>
-    <div class="flex items-center">
+    <div 
+      class="flex items-center"
+    >
       <div class="text-white px-2">Mesa de regalos:</div>
       <button 
         class="cursor-pointer bg-[#F8F8FF] py-2 rounded-full" 

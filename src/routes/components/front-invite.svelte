@@ -7,7 +7,7 @@
 </script>  
   
   <div 
-    class="absolute w-full h-full bg-[#EEF3F6] shadow-gray-900 shadow-lg rounded-md backface-hidden"
+    class="absolute w-full h-full bg-[#EEF3F6] shadow-gray-900 shadow-xl rounded-md backface-hidden"
   >
     <div class="rounded-md text-[#4682B4] h-full relative border-4 border-[#a2caea]">
       <img src={BorderTop} alt="border top" class="absolute">

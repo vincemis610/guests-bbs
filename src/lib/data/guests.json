@@ -1,43 +1,46 @@
 [
   {
     "to": "Mis Abuelitos",
-    "msg": "Hola Abuelitos",
+    "msg": "Hola queridos abuelitos",
     "id": "abuelos"
   },
   {
     "to": "Tia Rocio",
-    "msg": "Hola Tia Chio",
-    "id": "rocio"
+    "msg": "Hola tia Chio",
+    "id": "rocio",
+    "buttons": true
   },
   {
     "to": "Tio Diego y Lorena",
-    "msg": "Hola Tio y Tia",
+    "msg": "Hola tio y tia",
     "id": "dyl"
   },
   {
     "to": "Tio Alex",
-    "msg": "Hola Tio Alex",
-    "id": "alex"
+    "msg": "Hola tio Alex",
+    "id": "alex",
+    "buttons": true
   },
   {
     "to": "Tia Lola",
-    "msg": "Hola Tia Lola",
+    "msg": "Hola tia Lola",
     "id": "lola"
   },
   {
     "to": "Tia Teydi",
-    "msg": "Hola Tia Teydi",
+    "msg": "Hola tia Teydi",
     "id": "teydi"
   },
   {
     "to": "Reyna",
-    "msg": "Hola Prima Reyna",
+    "msg": "Hola prima Reyna",
     "id": "reyna"
   },
   {
     "to": "Roberto y Fabiola",
-    "msg": "Hola Padrinos",
-    "id": "ryl"
+    "msg": "Hola padrinos",
+    "id": "ryf",
+    "buttons": true
   },
   {
     "to": "Jhony y Geny",
@@ -46,58 +49,71 @@
   },
   {
     "to": "Tia Shanon",
-    "msg": "Hola Tia Shanon",
-    "id": "shanon"
+    "msg": "Hola tia Shanon",
+    "id": "shanon",
+    "buttons": true
   },
   {
     "to": "Prima Dennis",
-    "msg": "Hola Prima Dennis",
-    "id": "dennis"
+    "msg": "Hola prima Dennis",
+    "id": "dennis",
+    "buttons": true
   },
   {
     "to": "Tia Leti",
-    "msg": "Hola Tia Leti",
+    "msg": "Hola tia Leti",
     "id": "leti"
   },
   {
     "to": "Tia Magaly",
-    "msg": "Hola Tia Magaly",
+    "msg": "Hola tia Magaly",
     "id": "magaly"
   },
   {
     "to": "Sergio y Suemy",
-    "msg": "Hola Primos",
-    "id": "sys"
+    "msg": "Hola primos",
+    "id": "sys",
+    "buttons": true
   },
   {
     "to": "Prima Karen",
-    "msg": "Hola Prima",
-    "id": "karen"
+    "msg": "Hola prima",
+    "id": "karen",
+    "buttons": true
   },
   {
     "to": "Prima Abi",
-    "msg": "Hola Prima",
+    "msg": "Hola prima",
     "id": "abi"
   },
   {
+    "to": "Prima Julia",
+    "msg": "Hola prima Juli",
+    "id": "julia",
+    "buttons": true
+  },
+  {
     "to": "Tia Dulce",
-    "msg": "Hola Tia Dulce",
+    "msg": "Hola tia Dulce",
     "id": "dulce"
   },
   {
     "to": "Tia Lourdes",
-    "msg": "Hola Tia Lulu",
-    "id": "lulu"
+    "msg": "Hola tia Lulu",
+    "id": "lulu",
+    "buttons": true
   },
   {
     "to": "Prima Keila",
-    "msg": "Hola Prima Keila",
-    "id": "keila"
+    "msg": "Hola prima Keila",
+    "id": "keila",
+    "buttons": true
   },
   {
-    "to": "Prima Isa",
-    "msg": "",
-    "id": "isa"
+    "to": "Prima Isa y Abisai",
+    "msg": "Hola primos",
+    "id": "isa",
+    "buttons": true
   },
   {
     "to": "Prima Rocio",
@@ -105,7 +121,7 @@
     "id": "chio"
   },
   {
-    "to": "Vivi",
+    "to": "Viviana",
     "msg": "Hola Vivi",
     "id": "vivi"
   },
