@@ -141,5 +141,15 @@
     "to": "Emily",
     "msg": "Hola Emily",
     "id": "emily"
+  },
+  {
+    "to": "Ricky",
+    "msg": "Hola Primo Ricky",
+    "id": "ricky"
+  },
+  {
+    "to": "Laura y Alan",
+    "msg": "Hola Primos",
+    "id": "lya"
   }
 ]
