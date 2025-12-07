@@ -2,7 +2,7 @@
 	import BackInvite from "./back-invite.svelte";
 	import FrontInvite from "./front-invite.svelte";
   import { MapPin, Gift } from '@lucide/svelte/icons';
-  import ClickHere from '../../assets/cursor.png';
+  import TapHere from '../../assets/tap.png';
 
   type TypeGuest = {
     to: string;
@@ -30,14 +30,13 @@
 </script>
 
 <div class="min-h-screen flex flex-col items-center justify-center bg-[#4682B4]">
-  <div class="mb-4 px-2 rounded-md bg-[#F8F8FF]">
-    <button 
-      class="text-[#4682B4] text-xs cursor-pointer"
-      onclick={() => flipped = !flipped}
-    >
-      Ver invitación
-    </button>
-  </div>
+  
+  <button 
+    class="text-[#4682B4] bg-white rounded-md text-xs cursor-pointer p-1 mb-4"
+    onclick={() => flipped = !flipped}
+  >
+    <img src={TapHere} alt="Tap screen" width="18"/> 
+  </button>
   <button 
     class="w-88 h-140 cursor-pointer perspective-distant"
     type="button"
