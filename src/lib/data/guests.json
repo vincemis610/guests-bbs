@@ -145,7 +145,8 @@
   {
     "to": "Ricky",
     "msg": "Hola Primo Ricky",
-    "id": "ricky"
+    "id": "ricky",
+    "buttons":true
   },
   {
     "to": "Laura y Alan",

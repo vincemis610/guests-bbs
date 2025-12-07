@@ -2,6 +2,7 @@
 	import BackInvite from "./back-invite.svelte";
 	import FrontInvite from "./front-invite.svelte";
   import { MapPin, Gift } from '@lucide/svelte/icons';
+  import ClickHere from '../../assets/cursor.png';
 
   type TypeGuest = {
     to: string;
@@ -29,6 +30,14 @@
 </script>
 
 <div class="min-h-screen flex flex-col items-center justify-center bg-[#4682B4]">
+  <div class="mb-4 px-2 rounded-md bg-[#F8F8FF]">
+    <button 
+      class="text-[#4682B4] text-xs cursor-pointer"
+      onclick={() => flipped = !flipped}
+    >
+      Ver invitación
+    </button>
+  </div>
   <button 
     class="w-88 h-140 cursor-pointer perspective-distant"
     type="button"
@@ -46,7 +55,7 @@
   <div 
     class={`${dataGest?.buttons ? '' : 'hidden'} text-sm flex justify-center text-white p-2 mt-10 rounded-full`}
   >
-    <div class="flex items-center">
+    <div class="hidden items-center">
       <div class="text-white px-2">Ubicación:</div>
       <button 
         class="cursor-pointer bg-[#F8F8FF] py-2 rounded-full" 
