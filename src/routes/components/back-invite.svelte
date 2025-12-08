@@ -14,7 +14,16 @@
 >
   <div class="text-[#4682B4] font-medium">
     <div class="mt-14 font-semibold">{dataGest?.msg.toUpperCase() || 'HOLA FAMILIA'}</div>
-    {#if dataGest && dataGest?.id === 'ryf' || dataGest?.id === 'jyg' || dataGest?.id === 'maria' || dataGest?.id === 'iveth' || dataGest?.id === 'vivi' || dataGest?.id === 'emily' || dataGest?.id === 'chio'}
+    {#if 
+      dataGest && dataGest?.id === 'ryf' 
+      || dataGest?.id === 'jyg' 
+      || dataGest?.id === 'maria' 
+      || dataGest?.id === 'iveth' 
+      || dataGest?.id === 'vivi' 
+      || dataGest?.id === 'emily' 
+      || dataGest?.id === 'chio' 
+      || dataGest?.id === 'shanty'
+    }
       <div class="text-center w-auto pb-2 text-sm pt-2">
         Una bendición pronto llegará a iluminar nuestras vidas y a llenarnos de amor y alegría.
         Esperamos compartir con cada uno de ustedes la próxima llegada de nuestro bebé.

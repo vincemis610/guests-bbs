@@ -152,5 +152,10 @@
     "to": "Laura y Alan",
     "msg": "Hola Primos",
     "id": "lya"
+  },
+  {
+    "to": "Shanty",
+    "msg": "Hola Shanty",
+    "id": "shanty"
   }
 ]
