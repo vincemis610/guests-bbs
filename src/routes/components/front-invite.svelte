@@ -11,14 +11,14 @@
   >
     <div class="rounded-md text-[#4682B4] h-full relative border-4 border-[#a2caea]">
       <img src={BorderTop} alt="border top" class="absolute">
-      <div class="h-100 border-3 border-[#B0C4DE] mx-4 mt-28 pt-5">
+      <div class="h-100 border-3 border-[#B0C4DE] mx-4 mt-28 pt-5 text-lg">
         <div class="flex justify-center mt-8">
           <p class="font-semibold px-2">Para:</p>{dataGest?.to || 'Mi Familia'}
         </div>
-        <div class="flex justify-center">
+        <div class="justify-center hidden">
           <p class="font-semibold px-2">De:</p>EINAR DARIEL
         </div>
-        <div class="flex justify-center pt-2">
+        <div class="flex justify-center py-5">
           <p>Invitacion a mi:</p>
         </div> 
         <div class="flex justify-center pt-4">

@@ -157,5 +157,30 @@
     "to": "Shanty",
     "msg": "Hola Shanty",
     "id": "shanty"
+  },
+  {
+    "to": "Shanty",
+    "msg": "Hola Tia lidia",
+    "id": "lidia"
+  },
+  {
+    "to": "Shanty",
+    "msg": "Hola tia mari",
+    "id": "mari"
+  },
+  {
+    "to": "Shanty",
+    "msg": "Hola abuela nelva",
+    "id": "nelva"
+  },
+  {
+    "to": "Shanty",
+    "msg": "Hola abuela esther",
+    "id": "esther"
+  },
+  {
+    "to": "Shanty",
+    "msg": "Hola Shanty",
+    "id": "shanty"
   }
 ]

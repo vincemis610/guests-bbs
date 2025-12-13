@@ -23,6 +23,10 @@
       || dataGest?.id === 'emily' 
       || dataGest?.id === 'chio' 
       || dataGest?.id === 'shanty'
+      || dataGest?.id === 'nelva'
+      || dataGest?.id === 'esther'
+      || dataGest?.id === 'mari'
+      || dataGest?.id === 'lidia'
     }
       <div class="text-center w-auto pb-2 text-sm pt-2">
         Una bendición pronto llegará a iluminar nuestras vidas y a llenarnos de amor y alegría.
